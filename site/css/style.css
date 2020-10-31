@@ -1,0 +1,30 @@
+h3, h4 {
+    text-decoration-style: solid;
+    color: red;
+}
+span, li {
+    color:chartreuse;
+    opacity: .7;
+}
+a{
+    color: chartreuse;
+    background-color: red;
+    text-decoration: none;
+    font-weight: bold;
+    width: 200px;
+    display: block;
+    border: 1px solid orchid;
+    margin-bottom: 2px;
+}
+a:hover{
+    background-color: purple;
+}
+li:hover, h3:hover, h4:hover, span:hover, li:hover{
+    background-color: red;
+    width: 200px;
+}
+#alll {
+    padding: 0px 0px 0px 1000px ;
+    width: 200px;
+    background-color: grey;
+}
