@@ -31,7 +31,7 @@ a{
     background-color: brown;
 }
 
-@media (min-width:1000px)
+@media (min-width:992px)
 {
     body{
         background-image: url("back.jpg");
@@ -40,23 +40,15 @@ a{
         background-repeat: no-repeat;
     }
 
-    #container{
-        margin: 10px;
-    }
-    .line{
-        display: flex;
-        align-self: flex-start;
-    }
     .box
     {
-        width: 16.67%;
-        margin: 10px;
+        margin-bottom: 20px;
         position: relative;
     }
 
     .gb{
         position: absolute;
-        right: 0px;
+        right: 15px;
         bottom: 18px;
     }
 
@@ -66,7 +58,7 @@ a{
     }
 }
 
-@media (min-width:780px) and (max-width:999px)
+@media (min-width:767px) and (max-width:991.99px)
 {
     body
     {
@@ -81,12 +73,10 @@ a{
     #container
     {
         margin: 0;
-        position: relative;
     }
 
     .box
     {
-        width: 33.33%;
         padding-left: 1.67%;
         padding-right: 1.67%;
         padding-top: 15px;
@@ -112,64 +102,20 @@ a{
         bottom: 30px;
         right: 5%;
     }
-    .line
-    {
-        position: relative;
-        height: fit-content;
-    }
-    #box1
-    {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-    }
-    #box2
-    {
-        position: absolute;
-        top: 0px;
-        left: 33.33%;
-    }
-    #box3
-    {
-        position: absolute;
-        top: 0px;
-        right: 0px;
-    }
-    #box4
-    {
-        position: absolute;
-        top: 352px;
-        left: 0px;
-    }
-    #box5
-    {
-        position: absolute;
-        top: 352px;
-        left: 33.33%;
-    }
-    #box6
-    {
-        position: absolute;
-        top: 352px;
-        right: 0px;
-    }
-
 }
 
-@media (max-width:779px)
+@media (max-width:766.99px)
 {
     #title
     {
         background-color: cornflowerblue;
         color: yellow;
-        scroll-behavior: 0;
     }
     body{
         background-color: yellow;
     }
     #container{
         margin: 1.667px;
-        scroll-behavior: smooth;
     }
 
     .img{
@@ -190,37 +136,11 @@ a{
         color: yellow;
         position: absolute;
         right: 6.667%;
-        bottom: 11%;
+        bottom: 13%;
     }
 
     .box{
-        width: 50%;
         padding: 3.33%;
         position: relative;
-    }
-
-    #box1{
-        float: left;
-    }
-
-    #box3{
-        float: left;
-    }
-
-    #box5{
-        float: left;
-    }
-
-    #box2{
-        float: right;
-    }
-
-    #box4
-    {
-        float: right;
-    }
-    #box6
-    {
-        float: right;
     }
 }
